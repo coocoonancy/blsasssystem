@@ -1,0 +1,52 @@
+$strong: #7E83FF;
+$background: #F7F7F7;
+$black: #111111;
+$regular: #666666;
+$border: #D2D2D2;
+$--grid-extra-large: 24px;
+$--grid-large: 20px;
+$--grid-medium: 16px;
+$--grid-small: 12px;
+$--grid-extra-small: 8px;
+$contentWidth: 1440px;
+
+//定位上下左右居中
+@mixin center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+//定位上下居中
+@mixin centerY {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+//定位左右居中
+@mixin centerX {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+//字体大小，颜色
+@mixin sc($font-size, $color) {
+  font-size: $font-size;
+  color: $color;
+}
+
+@mixin wh($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin margin($top: 0, $right: 0, $bottom: 0, $left: 0) {
+  margin: $top, $right, $bottom, $left;
+}
+
+@mixin padding($top: 0, $right: 0, $bottom: 0, $left: 0) {
+  margin: $top, $right, $bottom, $left;
+}
+@mixin border($width: 1px, $color: $border) {
+  border: $width solid $color;
+}
