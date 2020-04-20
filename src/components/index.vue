@@ -4,7 +4,9 @@
   <el-container style="background: #F2F6FC;">
     <el-header>Header</el-header>
     <el-main>
-      <div class="main_container"></div>
+      <div class="main_container">
+        <iframe style="width: 100vw; height: 100vh;" src="https://bizsys.ibroadlink.com/#/taskManage/taskDetailNew/:537ac24cde2fb516cdcbccf17ad87c5d" frameborder="0"></iframe>
+      </div>
     </el-main>
     <el-footer>Copyright © 2020 Broadlink  保留所有权利</el-footer>
   </el-container>
